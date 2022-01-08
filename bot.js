@@ -7,13 +7,13 @@ require('discord-buttons')(bot);
 const { Color, Image, Footer, Author } = require("./config.js");
 const fs = require("fs"); 
 const request = require("request");
-const prefix = "e!";
+const prefix = "Bs/";
 const { Collection, MessageEmbed } = require("discord.js");
 const { inspect } = require("util");
-let dev = ["681553671364018196"];
+let dev = ["828550389233090571"];
 const cmd = require("node-cmd");
 
-bot.login("")
+bot.login("OTEwNDk2NTk5MzkyNzgwMzM4.YZTsCQ.iC8SIhXUKjiTPqHPD0NhE7iJ9c8")
 global.mongoose = require('mongoose')
 mongoose.connect("", { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
   console.log("✅ Connected to the database.");
